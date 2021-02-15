@@ -1,3 +1,4 @@
+
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
@@ -28,6 +29,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/fontawesome/fontawesome.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Trufla-task"
+    }
+  },
+  "defaultProject": "Trufla-task",
+  "cli": {
+    "analytics": "7713818e-2ac7-460b-ab77-0a5830bdc1e4"
+  }
 }

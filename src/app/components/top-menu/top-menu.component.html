@@ -1,0 +1,29 @@
+<section class="top-menu">
+    <div class="container d-flex justify-content-between">
+        <div class="logo">
+            <img src="../../../assets/images/logo.svg" class="img-fluid" alt="Logo-Image">
+        </div>
+
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link text-uppercase payment" href="#">payments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-uppercase assistant" href="#">claims assistance</a>
+            </li>
+           
+            <ng-container *ngIf=" !(layout.mobileMenuButtonAction | async) as mobileMenuButton">
+                <li class="nav-item phone">
+                    <a class="nav-link text-uppercase" href="#">
+                    <i class="fas fa-phone fa-rotate-90"></i>
+                    <span class="number">555-555-5555 </span> 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn text-uppercase text-white" href="#"> <span class="btn-text" >get a </span> quote</a>
+                </li>
+           </ng-container>
+            
+        </ul>
+    </div>
+</section>

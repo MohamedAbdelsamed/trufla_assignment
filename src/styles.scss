@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import './assets/fonts/stylesheet.css';
+body,html{
+    overflow-x: hidden;
+}
+.main-color{
+   color: #42415B;
+}
+.main2-color{
+    color: #170307;
+}
+.main3-color{
+    color: #4a4962;
+}
+li, ul{
+    list-style-type: none;
+}
